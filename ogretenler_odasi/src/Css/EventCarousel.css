@@ -1,0 +1,102 @@
+.event-carousel-wrapper {
+    width: 95%;
+    margin: 5% auto;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .event-carousel-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .event-carousel-title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .event-carousel-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+    margin-left: 15px;
+  }
+  
+  .event-carousel-container {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 15px; /* Başlık hizasında görünmesi için */
+  }
+  
+  
+  .event-carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .event-carousel-item {
+    min-width: 100%;
+    position: relative;
+  }
+  
+  .event-carousel-image {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+  }
+  
+  .event-title-overlay {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  /* Navigation buttons */
+  .event-carousel-prev,
+  .event-carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .event-carousel-prev {
+    left: 10px;
+  }
+  
+  .event-carousel-next {
+    right: 10px;
+  }
+  
+  .event-carousel-prev:hover,
+  .event-carousel-next:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  @media (max-width: 768px) {
+  .carousel-image {
+    height: 40vh;
+  }
+}

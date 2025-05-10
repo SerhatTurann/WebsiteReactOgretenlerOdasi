@@ -1,0 +1,61 @@
+/* Genel Konteyner */
+.stores-container {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .stores-container h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  /* Kartları düzenleyen grid */
+  .stores-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Kart Tasarımı */
+  .store-card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .store-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Görsel */
+  .store-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  /* Bilgiler */
+  .store-info {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .store-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .store-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  

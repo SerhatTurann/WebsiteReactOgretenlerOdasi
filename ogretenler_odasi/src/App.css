@@ -1,0 +1,32 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.spacer {
+  margin: 40px 0; /* Navbar, Carousel ve Footer arasına boşluk ekler */
+}
+
+/* Sayfa içeriği yukarı sabitlenen Navbar'ın altında başlasın diye */
+.navbar-space {
+  height: 150px; /* Navbar yüksekliği kadar boşluk bırakıyoruz */
+}
+/* Gereksiz logo animasyonları kaldırıldı */
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-button:hover {
+  background: #0056b3;
+}

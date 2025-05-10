@@ -1,0 +1,70 @@
+/* Genel Stil Ayarları */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Genel Konteyner */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Başlıklar */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Linkler */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Flexbox Yardımcı Sınıfları */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navbar ile çakışmayı önlemek için Navbar stilleri buradan kaldırıldı */
+/* Tüm sayfanın yüksekliği ekran yüksekliğine eşit olacak */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Sayfa yüksekliği en az ekran yüksekliği kadar olacak */
+}
+
+/* İçerik alanı büyüyebilecek ama footer her zaman altta kalacak */
+.content {
+  flex: 1;
+}
+
+/* Footer her zaman sayfanın en altına sabitlenecek */
+.footer {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+

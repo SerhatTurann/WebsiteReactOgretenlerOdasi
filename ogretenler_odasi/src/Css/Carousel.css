@@ -1,0 +1,59 @@
+/* Carousel Container */
+.carousel-container {
+  position: relative;
+  width: 95%;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 2.5%;
+  overflow: hidden; /* Görsellerin dışarı taşmasını engelle */
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  min-width: 100%; /* Ekranın tamamını kapsaması için %100 genişlik */
+  align-items: center;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 78vh; /* Ekranın tamamını kaplasın */
+  object-fit: fill; /* Görselin orantılı olarak büyümesini sağlar */
+}
+
+/* Carousel Buttons */
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 10px;
+  font-size: 3rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+.carousel-prev:hover,
+.carousel-next:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+  .carousel-image {
+    height: 40vh;
+  }
+}

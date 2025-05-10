@@ -1,0 +1,119 @@
+:root {
+  --primary-color: #007bff;
+  --background-light: #ffffff;
+  --text-dark: #333;
+  --hover-color: black;
+}
+
+/* Navbar Ana Yapı */
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--background-light);
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 0;
+}
+
+/* Sayfa içeriği navbar altında başlasın */
+.navbar-space {
+  height: 80px;
+}
+
+/* Üst Kısım: Logo */
+.navbar-top {
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--text-dark);
+}
+
+/* Alt Kısım: Menü Linkleri */
+.navbar-bottom {
+  background-color: rgb(179, 226, 235);
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+  transition: max-height 0.3s ease;
+}
+
+.navbar-bottom a {
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  padding: 10px 15px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-bottom a:hover {
+  color: var(--hover-color);
+}
+
+.navbar-bottom a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--hover-color);
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.navbar-bottom a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Hamburger Menü */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hamburger.open {
+  transform: rotate(90deg);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-bottom {
+    flex-direction: column;
+    align-items: center;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .navbar-bottom.open {
+    max-height: 300px;
+  }
+
+  .navbar-bottom a {
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

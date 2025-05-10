@@ -1,0 +1,279 @@
+[
+    {
+      "id": 1,
+      "title": "Ocak Sayısı",
+      "defaultImg": "/assets/image_1.jpg",
+      "hoverImg": "/assets/image1.jpg",
+      "topics": [
+        {
+          "id": 101,
+          "title": "Yapay Zeka ve Gelecek",
+          "summary": "AI teknolojisinin gelişimi ve etkileri",
+          "author": "Ahmet Yılmaz",
+          "image": "/assets/image_1.jpg",
+          "authorImage": "/assets/image_1.jpg",
+          "authorId": 1,
+          "rating": 4.2
+        },
+        {
+          "id": 102,
+          "title": "Sürdürülebilir Enerji",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Elif Demir",
+          "image": "/assets/image_1.jpg",
+          "authorImage": "/assets/image_1.jpg",
+          "authorId": 2,
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Şubat Sayısı",
+      "defaultImg": "/assets/image_2.jpg",
+      "hoverImg": "/assets/image2.jpg",
+      "topics": [
+        {
+          "id": 201,
+          "title": "Kuantum Bilgisayarlar",
+          "summary": "Yeni nesil bilgi işlem teknolojisi",
+          "author": "Mehmet Kaya",
+          "image": "/assets/image1.jpg",
+          "authorImage": "/assets/image1.jpg",
+          "authorId": 3,
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ocak Sayısı",
+      "defaultImg": "/assets/image_1.jpg",
+      "hoverImg": "/assets/image1.jpg",
+      "topics": [
+        {
+          "id": 101,
+          "title": "Yapay Zeka ve Gelecek",
+          "summary": "AI teknolojisinin gelişimi ve etkileri",
+          "author": "Ahmet Yılmaz",
+          "image": "/assets/image_1.jpg",
+          "authorImage": "/assets/image_1.jpg",
+          "authorId": 1,
+          "rating": 4.2
+        },
+        {
+          "id": 102,
+          "title": "Sürdürülebilir Enerji",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Elif Demir",
+          "image": "/assets/image_1.jpg",
+          "authorImage": "/assets/image_1.jpg",
+          "authorId": 2,
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Şubat Sayısı",
+      "defaultImg": "/assets/image_2.jpg",
+      "hoverImg": "/assets/image2.jpg",
+      "topics": [
+        {
+          "id": 201,
+          "title": "Kuantum Bilgisayarlar",
+          "summary": "Yeni nesil bilgi işlem teknolojisi",
+          "author": "Mehmet Kaya",
+          "image": "/assets/image1.jpg",
+          "authorImage": "/assets/image1.jpg",
+          "authorId": 3,
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ocak Sayısı",
+      "defaultImg": "/assets/image_1.jpg",
+      "hoverImg": "/assets/image1.jpg",
+      "topics": [
+        {
+          "id": 101,
+          "title": "Yapay Zeka ve Gelecek",
+          "summary": "AI teknolojisinin gelişimi ve etkileri",
+          "author": "Ahmet Yılmaz",
+          "image": "/assets/image_1.jpg",
+          "authorImage": "/assets/image_1.jpg",
+          "authorId": 1,
+          "rating": 4.2
+        },
+        {
+          "id": 102,
+          "title": "Sürdürülebilir Enerji",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Elif Demir",
+          "image": "/assets/image_1.jpg",
+          "authorImage": "/assets/image_1.jpg",
+          "authorId": 2,
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Şubat Sayısı",
+      "defaultImg": "/assets/image_2.jpg",
+      "hoverImg": "/assets/image2.jpg",
+      "topics": [
+        {
+          "id": 201,
+          "title": "Kuantum Bilgisayarlar",
+          "summary": "Yeni nesil bilgi işlem teknolojisi",
+          "author": "Mehmet Kaya",
+          "image": "/assets/image1.jpg",
+          "authorImage": "/assets/image1.jpg",
+          "authorId": 3,
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Ocak Sayısı",
+      "defaultImg": "/assets/image_1.jpg",
+      "hoverImg": "/assets/image1.jpg",
+      "topics": [
+        {
+          "id": 101,
+          "title": "Yapay Zeka ve Gelecek",
+          "summary": "AI teknolojisinin gelişimi ve etkileri",
+          "author": "Ahmet Yılmaz",
+          "image": "/assets/image_1.jpg",
+          "authorImage": "/assets/image_1.jpg",
+          "authorId": 1,
+          "rating": 4.2
+        },
+        {
+          "id": 102,
+          "title": "Sürdürülebilir Enerji",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Elif Demir",
+          "image": "/assets/image_1.jpg",
+          "authorImage": "/assets/image_1.jpg",
+          "authorId": 2,
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Şubat Sayısı",
+      "defaultImg": "/assets/image_2.jpg",
+      "hoverImg": "/assets/image2.jpg",
+      "topics": [
+        {
+          "id": 201,
+          "title": "Kuantum Bilgisayarlar",
+          "summary": "Yeni nesil bilgi işlem teknolojisi",
+          "author": "Mehmet Kaya",
+          "image": "/assets/image1.jpg",
+          "authorImage": "/assets/image1.jpg",
+          "authorId": 3,
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Ocak Sayısı",
+      "defaultImg": "/assets/image_1.jpg",
+      "hoverImg": "/assets/image1.jpg",
+      "topics": [
+        {
+          "id": 101,
+          "title": "Yapay Zeka ve Gelecek",
+          "summary": "AI teknolojisinin gelişimi ve etkileri",
+          "author": "Ahmet Yılmaz",
+          "image": "/assets/image_1.jpg",
+          "authorImage": "/assets/image_1.jpg",
+          "authorId": 1,
+          "rating": 4.2
+        },
+        {
+          "id": 102,
+          "title": "Sürdürülebilir Enerji",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Elif Demir",
+          "image": "/assets/image_1.jpg",
+          "authorImage": "/assets/image_1.jpg",
+          "authorId": 2,
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Şubat Sayısı",
+      "defaultImg": "/assets/image_2.jpg",
+      "hoverImg": "/assets/image2.jpg",
+      "topics": [
+        {
+          "id": 201,
+          "title": "Kuantum Bilgisayarlar",
+          "summary": "Yeni nesil bilgi işlem teknolojisi",
+          "author": "Mehmet Kaya",
+          "image": "/assets/image1.jpg",
+          "authorImage": "/assets/image1.jpg",
+          "authorId": 3,
+          "rating": 4.8
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Ocak Sayısı",
+      "defaultImg": "/assets/image_1.jpg",
+      "hoverImg": "/assets/image1.jpg",
+      "topics": [
+        {
+          "id": 101,
+          "title": "Yapay Zeka ve Gelecek",
+          "summary": "AI teknolojisinin gelişimi ve etkileri",
+          "author": "Ahmet Yılmaz",
+          "image": "/assets/image_1.jpg",
+          "authorImage": "/assets/image_1.jpg",
+          "authorId": 1,
+          "rating": 4.2
+        },
+        {
+          "id": 102,
+          "title": "Sürdürülebilir Enerji",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Elif Demir",
+          "image": "/assets/image_1.jpg",
+          "authorImage": "/assets/image_1.jpg",
+          "authorId": 2,
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Şubat Sayısı",
+      "defaultImg": "/assets/image_2.jpg",
+      "hoverImg": "/assets/image2.jpg",
+      "topics": [
+        {
+          "id": 201,
+          "title": "Kuantum Bilgisayarlar",
+          "summary": "Yeni nesil bilgi işlem teknolojisi",
+          "author": "Mehmet Kaya",
+          "image": "/assets/image1.jpg",
+          "authorImage": "/assets/image1.jpg",
+          "authorId": 3,
+          "rating": 4.8
+        }
+      ]
+    }
+  ]
+  
