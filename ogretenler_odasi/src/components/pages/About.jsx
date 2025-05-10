@@ -1,12 +1,12 @@
 import "../../Css/About.css";
-import visionImage from "../../assets/image_1.jpg";
-import missionImage from "../../assets/image_1.jpg";
+import visionImage from "/assets/image_4.jpg";
+import missionImage from "/assets/image_5.jpg";
 
 // Yönetici Fotoğrafları
-import directorImg from "../../assets/image_1.jpg";
-import editorImg from "../../assets/image_1.jpg";
-import graphicDesignerImg from "../../assets/image_1.jpg";
-import artDirectorImg from "../../assets/image_1.jpg";
+import directorImg from "/assets/image_1.jpg";
+import editorImg from "/assets/image_2.jpg";
+import graphicDesignerImg from "/assets/image_3.jpg";
+import artDirectorImg from "/assets/image_4.jpg";
 
 const About = () => {
   return (
