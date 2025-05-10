@@ -7,7 +7,7 @@ const Issue = () => {
   const [hoveredId, setHoveredId] = useState(null);
 
   useEffect(() => {
-    fetch("/data/issues.json") // public klasörden alınır
+    fetch(`${import.meta.env.BASE_URL}data/issues.json`)
       .then((res) => res.json())
       .then((data) => setIssues(data))
       .catch((err) => console.error("Veri alınamadı", err));

@@ -18,8 +18,8 @@ const Author = () => {
     const fetchAuthorAndArticles = async () => {
       try {
         const [authorRes, issuesRes] = await Promise.all([
-          fetch("/data/authors.json"),
-          fetch("/data/issues.json")
+          fetch(`${import.meta.env.BASE_URL}data/authors.json`),
+          fetch(`${import.meta.env.BASE_URL}data/issues.json`)
         ]);
 
         const authorsData = await authorRes.json();

@@ -8,7 +8,7 @@ const HomeIssuePreview = () => {
   const [hoveredId, setHoveredId] = useState(null);
 
   useEffect(() => {
-    fetch("/data/issues.json")
+    fetch(`${import.meta.env.BASE_URL}data/issues.json`)
       .then((res) => res.json())
       .then((data) => setIssues(data.slice(0, 6))) // sadece ilk 5 sayıyı al
       .catch((err) => console.error("Veri alınamadı", err));

@@ -9,7 +9,7 @@ const IssueDetail = () => {
   const [ratings, setRatings] = useState({});
 
   useEffect(() => {
-    fetch("/data/issues.json")
+    fetch(`${import.meta.env.BASE_URL}data/issues.json`)
       .then((res) => res.json())
       .then((data) => {
         const found = data.find((item) => item.id === parseInt(id));
