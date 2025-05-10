@@ -1,0 +1,21 @@
+
+[
+    {
+    "id": 1,
+    "name": "Ahmet Yılmaz",
+    "bio": "Ahmet Yılmaz, 10 yıldır edebiyat ve kültür üzerine yazılar yazmaktadır. Çeşitli dergilerde makaleleri yayımlanmıştır.",
+    "image": "/assets/image_1.jpg"
+    },
+    {
+    "id": 2,
+    "name": "Elif Demir",
+    "bio": "Elif Demir, çevre ve sürdürülebilirlik konularında uzmandır. Birçok ulusal yayında yazıları yer almaktadır.",
+    "image": "/assets/image_1.jpg"
+    },
+    {
+    "id": 3,
+    "name": "Mehmet Kaya",
+    "bio": "Mehmet Kaya, fizik ve teknoloji alanında çalışmaktadır. Kuantum teknolojileri üzerine birçok makale kaleme almıştır.",
+    "image": "/assets/image1.jpg"
+    }
+]
