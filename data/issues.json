@@ -1,297 +1,103 @@
 [
+
     {
       "id": 1,
-      "title": "Ocak Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_6.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_5.jpg",
+      "title": "Zaman",
+      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/zaman_1.jpg",
+      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image1.jpg",
       "topics": [
-        {
-          "id": 101,
-          "title": "Yapay Zeka ve Gelecek",
-          "summary": "AI teknolojisinin gelişimi ve etkileri",
-          "author": "Ahmet Yılmaz",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_2.jpg",
-          "authorId": 1,
-          "rating": 4.2
-        },
         {
           "id": 102,
-          "title": "Sürdürülebilir Enerji",
+          "title": "Sessiz Yankılar",
           "summary": "Yeşil enerjiye geçiş süreci",
-          "author": "Elif Demir",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_3.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_4.jpg",
-          "authorId": 2,
-          "rating": 4.5
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Şubat Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_5.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_6.jpg",
-      "topics": [
+          "author": "Leylim Şadan",
+          "image": "/WebsiteReactOgretenlerOdasi/assets/zaman_2.jpg",
+          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
+          "authorId": 2
+        },
         {
-          "id": 201,
-          "title": "Kuantum Bilgisayarlar",
-          "summary": "Yeni nesil bilgi işlem teknolojisi",
-          "author": "Mehmet Kaya",
+          "id": 103,
+          "title": "Cafe Atölye",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Tuğba Karabacak",
+          "image": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
+          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
+          "authorId": 2
+        },
+        {
+          "id": 104,
+          "title": "Zamanlar",
+          "summary": "Bahadır Özkan",
+          "author": "Bahadır Özkan",
+          "image": "/WebsiteReactOgretenlerOdasi/assets/zaman_3.jpg",
+          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
+          "authorId": 2
+        },
+        {
+          "id": 105,
+          "title": "Felsefe ve Zaman",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Buse Avil Çelebi",
+          "image": "/WebsiteReactOgretenlerOdasi/assets/image_2.jpg",
+          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
+          "authorId": 2
+        },
+        {
+          "id": 106,
+          "title": "Zaman ve Beyin Cerrahisi",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Op. Dr. Arif Topal",
+          "image": "/WebsiteReactOgretenlerOdasi/assets/image_3.jpg",
+          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
+          "authorId": 2
+        },
+        {
+          "id": 107,
+          "title": "Ezgi",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Ayzem Alin",
+          "image": "/WebsiteReactOgretenlerOdasi/assets/zaman_4.jpg",
+          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
+          "authorId": 2
+        },
+        {
+          "id": 108,
+          "title": "Sanatçılar",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Tuğba Nur Karabacak",
+          "image": "/WebsiteReactOgretenlerOdasi/assets/zaman_5.jpg",
+          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
+          "authorId": 2
+        },
+        {
+          "id": 109,
+          "title": "Delilendik mi?",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Sevilay Ökçe",
+          "image": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
+          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
+          "authorId": 2
+        },
+        {
+          "id": 110,
+          "title": "Gerçeğe Çeyrek Kala",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Janset Talu",
+          "image": "/WebsiteReactOgretenlerOdasi/assets/image_2.jpg",
+          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
+          "authorId": 2
+        },
+        {
+          "id": 111,
+          "title": "Fıkralar",
+          "summary": "Yeşil enerjiye geçiş süreci",
+          "author": "Tuğba Nur Karabacak",
           "image": "/WebsiteReactOgretenlerOdasi/assets/image_7.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_8.jpg",
-          "authorId": 3,
-          "rating": 4.8
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Ocak Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_9.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
-      "topics": [
-        {
-          "id": 301,
-          "title": "Yapay Zeka ve Gelecek",
-          "summary": "AI teknolojisinin gelişimi ve etkileri",
-          "author": "Ahmet Yılmaz",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_2.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_3.jpg",
-          "authorId": 1,
-          "rating": 4.2
-        },
-        {
-          "id": 302,
-          "title": "Sürdürülebilir Enerji",
-          "summary": "Yeşil enerjiye geçiş süreci",
-          "author": "Elif Demir",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_4.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_5.jpg",
-          "authorId": 2,
-          "rating": 4.5
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Şubat Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_6.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_7.jpg",
-      "topics": [
-        {
-          "id": 401,
-          "title": "Kuantum Bilgisayarlar",
-          "summary": "Yeni nesil bilgi işlem teknolojisi",
-          "author": "Mehmet Kaya",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_8.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_9.jpg",
-          "authorId": 3,
-          "rating": 4.8
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Ocak Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_2.jpg",
-      "topics": [
-        {
-          "id": 501,
-          "title": "Yapay Zeka ve Gelecek",
-          "summary": "AI teknolojisinin gelişimi ve etkileri",
-          "author": "Ahmet Yılmaz",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_3.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_4.jpg",
-          "authorId": 1,
-          "rating": 4.2
-        },
-        {
-          "id": 502,
-          "title": "Sürdürülebilir Enerji",
-          "summary": "Yeşil enerjiye geçiş süreci",
-          "author": "Elif Demir",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_5.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_6.jpg",
-          "authorId": 2,
-          "rating": 4.5
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Şubat Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_7.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_8.jpg",
-      "topics": [
-        {
-          "id": 601,
-          "title": "Kuantum Bilgisayarlar",
-          "summary": "Yeni nesil bilgi işlem teknolojisi",
-          "author": "Mehmet Kaya",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_9.jpg",
           "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
-          "authorId": 3,
-          "rating": 4.8
+          "authorId": 2
         }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Ocak Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_2.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_3.jpg",
-      "topics": [
-        {
-          "id": 701,
-          "title": "Yapay Zeka ve Gelecek",
-          "summary": "AI teknolojisinin gelişimi ve etkileri",
-          "author": "Ahmet Yılmaz",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_4.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_5.jpg",
-          "authorId": 1,
-          "rating": 4.2
-        },
-        {
-          "id": 702,
-          "title": "Sürdürülebilir Enerji",
-          "summary": "Yeşil enerjiye geçiş süreci",
-          "author": "Elif Demir",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_6.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_7.jpg",
-          "authorId": 2,
-          "rating": 4.5
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Şubat Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_8.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_9.jpg",
-      "topics": [
-        {
-          "id": 801,
-          "title": "Kuantum Bilgisayarlar",
-          "summary": "Yeni nesil bilgi işlem teknolojisi",
-          "author": "Mehmet Kaya",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_2.jpg",
-          "authorId": 3,
-          "rating": 4.8
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Şubat Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_8.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_9.jpg",
-      "topics": [
-        {
-          "id": 901,
-          "title": "Kuantum Bilgisayarlar",
-          "summary": "Yeni nesil bilgi işlem teknolojisi",
-          "author": "Mehmet Kaya",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_2.jpg",
-          "authorId": 3,
-          "rating": 4.8
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "title": "Ocak Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_9.jpg",
-      "topics": [
-        {
-          "id": 1001,
-          "title": "Yapay Zeka ve Gelecek",
-          "summary": "AI teknolojisinin gelişimi ve etkileri",
-          "author": "Ahmet Yılmaz",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_8.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_7.jpg",
-          "authorId": 1,
-          "rating": 4.2
-        },
-        {
-          "id": 1002,
-          "title": "Sürdürülebilir Enerji",
-          "summary": "Yeşil enerjiye geçiş süreci",
-          "author": "Elif Demir",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_6.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_5.jpg",
-          "authorId": 2,
-          "rating": 4.5
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "title": "Şubat Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_4.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_3.jpg",
-      "topics": [
-        {
-          "id": 1101,
-          "title": "Kuantum Bilgisayarlar",
-          "summary": "Yeni nesil bilgi işlem teknolojisi",
-          "author": "Mehmet Kaya",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_2.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
-          "authorId": 3,
-          "rating": 4.8
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "title": "Ocak Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_9.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_8.jpg",
-      "topics": [
-        {
-          "id": 1201,
-          "title": "Yapay Zeka ve Gelecek",
-          "summary": "AI teknolojisinin gelişimi ve etkileri",
-          "author": "Ahmet Yılmaz",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_8.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_7.jpg",
-          "authorId": 1,
-          "rating": 4.2
-        },
-        {
-          "id": 1202,
-          "title": "Sürdürülebilir Enerji",
-          "summary": "Yeşil enerjiye geçiş süreci",
-          "author": "Elif Demir",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_6.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_5.jpg",
-          "authorId": 2,
-          "rating": 4.5
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "title": "Şubat Sayısı",
-      "defaultImg": "/WebsiteReactOgretenlerOdasi/assets/image_4.jpg",
-      "hoverImg": "/WebsiteReactOgretenlerOdasi/assets/image_3.jpg",
-      "topics": [
-        {
-          "id": 1301,
-          "title": "Kuantum Bilgisayarlar",
-          "summary": "Yeni nesil bilgi işlem teknolojisi",
-          "author": "Mehmet Kaya",
-          "image": "/WebsiteReactOgretenlerOdasi/assets/image_2.jpg",
-          "authorImage": "/WebsiteReactOgretenlerOdasi/assets/image_1.jpg",
-          "authorId": 3,
-          "rating": 4.8
-        }
+        
       ]
     }
-  ]
+]
   
