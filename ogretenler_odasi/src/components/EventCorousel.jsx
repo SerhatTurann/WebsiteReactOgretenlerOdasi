@@ -1,25 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import "../Css/EventCarousel.css";
 import event1Image from "../assets/image_1.jpg";
-import event2Image from "../assets/image_2.jpg";
-import event3Image from "../assets/image_3.jpg";
 import { useState, useEffect } from "react";
 
 const events = [
   {
     id: 1,
     image: event1Image,
-    title: "Sanat ve Kültür Buluşması",
-  },
-  {
-    id: 2,
-    image: event2Image,
-    title: "Teknoloji Zirvesi 2025",
-  },
-  {
-    id: 3,
-    image: event3Image,
-    title: "Kitap ve Edebiyat Festivali",
+    title: "Öğretenler Odası Lansmanı",
   },
 ];
 

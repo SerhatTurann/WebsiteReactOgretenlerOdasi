@@ -9,20 +9,8 @@ const events = [
   {
     id: 1,
     image: event1Image,
-    title: "Sanat ve Kültür Buluşması",
-    description: "Sanatseverler için düzenlenen bu etkinlikte ünlü sanatçılarla söyleşi yapılacak.",
-  },
-  {
-    id: 2,
-    image: event2Image,
-    title: "Teknoloji Zirvesi 2025",
-    description: "Yapay zeka, blockchain ve geleceğin teknolojileri hakkında uzmanlarla buluşma fırsatı.",
-  },
-  {
-    id: 3,
-    image: event3Image,
-    title: "Kitap ve Edebiyat Festivali",
-    description: "Yazarlarla imza günü, paneller ve söyleşilerin olduğu eşsiz bir edebiyat festivali.",
+    title: "Öğretener Odası Lansmanı",
+    description: "Öğretener Odası dergimizin tanıtım gecesinde davetlilerimizle buluşuyoruz.",
   },
 ];
 

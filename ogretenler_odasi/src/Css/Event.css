@@ -12,9 +12,14 @@
 
 .event-card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* Sabit 3 sütun */
   gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-items: center; /* Kartları ortalamak için */
 }
+
+
 
 .event-card-link {
   text-decoration: none;
@@ -22,6 +27,8 @@
 }
 
 .event-card {
+  width: 100%;               /* grid hücresini doldurur */
+  max-width: 300px;          /* ama maksimum 300px olur */
   background-color: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -29,6 +36,7 @@
   transition: transform 0.2s ease;
   cursor: pointer;
 }
+
 
 .event-card:hover {
   transform: translateY(-5px);
@@ -79,4 +87,9 @@
 
 .back-button:hover {
   background-color: #005fa3;
+}
+@media (max-width: 768px) {
+  .event-card-container {
+    grid-template-columns: 1fr; /* Küçük ekranlarda tek sütun */
+  }
 }

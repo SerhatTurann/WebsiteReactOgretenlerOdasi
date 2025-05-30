@@ -122,9 +122,10 @@
 .team-photo {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #f0f0f0; /* Boşlukları daha estetik gösterir */
 }
+
 
 /* Responsive */
 @media (max-width: 768px) {

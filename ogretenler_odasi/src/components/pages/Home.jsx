@@ -9,8 +9,6 @@ const Home = () => {
     <div className="home-container">
       <Carousel />
       <HomeIssuePreview/>
-      <HomeIssuePreview/>
-      <HomeIssuePreview/>
       <EventCarousel />
     </div>
   );

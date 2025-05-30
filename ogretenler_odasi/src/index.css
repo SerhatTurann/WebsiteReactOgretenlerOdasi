@@ -51,6 +51,7 @@ a {
 .app-container {
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
   min-height: 100vh; /* Sayfa yüksekliği en az ekran yüksekliği kadar olacak */
 }
 

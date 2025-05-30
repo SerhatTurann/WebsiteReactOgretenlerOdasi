@@ -25,10 +25,6 @@ const Contact = () => {
       {/* İletişim Bilgileri */}
       <div className="contact-info">
         <div>
-          <i className="fas fa-phone-alt"></i>
-          <p>+1 234 567 890</p>
-        </div>
-        <div>
           <i className="fas fa-envelope"></i>
           <p>bilgi@ogretenlerodasi.com</p>
         </div>

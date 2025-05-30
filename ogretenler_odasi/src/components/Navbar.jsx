@@ -27,7 +27,7 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-top">
-          <h1 className="navbar-logo">LOGO</h1>
+          <img className="navbar-logo" src="/WebsiteReactOgretenlerOdasi/assets/logo.jpg"></img>
           <div className="hamburger" onClick={toggleMenu}>
             {isOpen ? "✖" : "☰"}
           </div>

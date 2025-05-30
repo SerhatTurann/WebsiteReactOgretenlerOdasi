@@ -34,12 +34,16 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
   
-  /* Görsel */
   .store-image {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-  }
+  width: 100%;
+  height: 180px;
+  object-fit: contain;   /* Görselin tamamı gösterilir */
+  background-color: #f0f0f0; /* Boşluk varsa arka plan belli olur */
+  display: block;
+}
+
+
+
   
   /* Bilgiler */
   .store-info {
