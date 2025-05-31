@@ -1,59 +1,62 @@
+import React, { useEffect, useState } from "react";
 import "../../Css/About.css";
-import visionImage from "/assets/image_4.jpg";
-import missionImage from "/assets/image_5.jpg";
-
-// Yönetici Fotoğrafları
-import directorImg from "/assets/image_1.jpg";
-import editorImg from "/assets/nurseda.jpg";
-import graphicDesignerImg from "/assets/miray.jpg";
-import artDirectorImg from "/assets/sevilay.jpg";
 
 const About = () => {
+  const [aboutData, setAboutData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/aboutData.json`)
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error("Veri yüklenirken hata oluştu");
+        }
+        return res.json();
+      })
+      .then((data) => {
+        setAboutData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setError(err.message);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return <p>Yükleniyor...</p>;
+  if (error) return <p>Hata: {error}</p>;
+
+  const { aboutText, vision, mission, team } = aboutData;
+
   return (
     <div className="about-container">
-      {/* Hakkımızda Bölümü */}
+      {/* Hakkımızda */}
       <section className="about-section">
         <h2>Hakkımızda</h2>
-        <p>
-          Biz, kaliteli içerik üretmeyi ve okurlarımıza en iyi deneyimi sunmayı amaçlayan yenilikçi bir ekibiz.
-          Deneyimli yazarlarımız ve tasarımcılarımızla, her zaman özgün ve etkileyici yayınlar üretmeyi hedefliyoruz.
-        </p>
+        <p>{aboutText}</p>
       </section>
 
+      {/* Vizyon */}
       <div className="vision-mission">
         <div className="vision">
-          <h3>Vizyonumuz</h3>
-          <p>
-            Öğrenmeyenlerin öğretme arzusuyla yanıp tutuştuğu, bu eşsiz bilmeden bildirme (had bilmeden had bildirenler) döneminde  neden böyle bir işe giriştiğimizi inanın biz de hiç bilmiyoruz. Şunu biliyoruz ki hiç böyle bir ulvi amaç gütmeden, izninize sığınarak, bir paylaşım kapısında buluşmak, naçizane düşlerimizi, düşlenenleri, zamanın kıyısındaki kalıntıları, zamanın dalgasında yüzenleri, beşeri olanı beşer kalarak siz sevgili okuyucularımızla paylaşmak istiyoruz.
-          </p>
+          <h3>{vision.title}</h3>
+          <p>{vision.text}</p>
         </div>
-        <img src={visionImage} alt="Vizyon" className="vision-mission-image vision-image" />
+        <img src={vision.image} alt="Vizyon" className="vision-mission-image vision-image" />
       </div>
 
       {/* Yönetim Kadrosu */}
       <section className="team-section">
         <h3>Yönetim Kadrosu</h3>
         <div className="team-cards">
-          <div className="team-card">
-            <img src={directorImg} alt="Yayın Direktörü" className="team-photo" />
-            <h4>Genel Yayın Yönetmeni</h4>
-            <p>Tuğba Karabacak</p>
-          </div>
-          <div className="team-card">
-            <img src={editorImg} alt="Editör" className="team-photo" />
-            <h4>Editör</h4>
-            <p>Nurseda Okay</p>
-          </div>
-          <div className="team-card">
-            <img src={graphicDesignerImg} alt="Grafik Yönetmeni" className="team-photo" />
-            <h4>Grafik Tasarımcı - Video Editörü</h4>
-            <p>Miray Ökçe</p>
-          </div>
-          <div className="team-card">
-            <img src={artDirectorImg} alt="Sanat Yönetmeni" className="team-photo" />
-            <h4>Sanat Danışmanı - İllüstratör</h4>
-            <p>Sevilay Ökçe</p>
-          </div>
+          {team.map((member, index) => (
+            <div key={index} className="team-card">
+              <img src={member.image} alt={member.title} className="team-photo" />
+              <h4>{member.title}</h4>
+              <p>{member.name}</p>
+            </div>
+          ))}
         </div>
       </section>
     </div>

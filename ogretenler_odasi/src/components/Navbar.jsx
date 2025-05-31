@@ -5,7 +5,7 @@ import "../Css/Navbar.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Hamburger menüyü aç/kapa
+  // Hamburger menüyü aç/kapat
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -27,11 +27,22 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-top">
-          <img className="navbar-logo" src="/WebsiteReactOgretenlerOdasi/assets/logo.jpg"></img>
-          <div className="hamburger" onClick={toggleMenu}>
+          <Link to="/" onClick={handleLinkClick}>
+            <img
+              className="navbar-logo"
+              src="/WebsiteReactOgretenlerOdasi/assets/logo.jpg"
+              alt="Logo"
+            />
+          </Link>
+          <button
+            className={`hamburger ${isOpen ? "open" : ""}`}
+            onClick={toggleMenu}
+            aria-label="Menüyü Aç/Kapat"
+          >
             {isOpen ? "✖" : "☰"}
-          </div>
+          </button>
         </div>
+
         <div className={`navbar-bottom ${isOpen ? "open" : ""}`}>
           <Link to="/" onClick={handleLinkClick}>Anasayfa</Link>
           <Link to="/about" onClick={handleLinkClick}>Hakkımızda</Link>
@@ -41,6 +52,10 @@ const Navbar = () => {
           <Link to="/contact" onClick={handleLinkClick}>İletişim</Link>
         </div>
       </nav>
+
+      {/* Menü açıkken tıklanabilir karartı */}
+      {isOpen && <div className="backdrop" onClick={toggleMenu}></div>}
+
       <div className="navbar-space"></div>
     </>
   );

@@ -33,9 +33,19 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Telif Hakkı Bölümü */}
+      {/* Telif Hakkı ve Yazılım Sahibi */}
       <div className="footer-bottom">
         &copy; 2025 Tüm Hakları Saklıdır. Şirket Adı
+        <div className="footer-author">
+          Tasarım & Yazılım:{" "}
+          <a
+            href="https://github.com/Serhatturann"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Serhat Turan
+          </a>
+        </div>
       </div>
     </footer>
   );
