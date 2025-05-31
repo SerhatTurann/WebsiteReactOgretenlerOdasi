@@ -9,8 +9,8 @@ const events = [
   {
     id: 1,
     image: event1Image,
-    title: "Öğretener Odası Lansmanı",
-    description: "Öğretener Odası dergimizin tanıtım gecesinde davetlilerimizle buluşuyoruz.",
+    title: "Öğretenler Odası Lansmanı",
+    description: "Öğretenler Odası dergimizin tanıtım gecesinde davetlilerimizle buluşuyoruz.",
   },
 ];
 
